@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ABCPharmacyApp.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ABCPharmacyApp.Api.Controllers.MedicinesController.GetAll">
+            <summary>
+            Get the list of all medicine
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.MedicinesController.GetById(System.Int32)">
+            <summary>
+            Get the medicine by Id
+            </summary>
+            <param name="id">Medicine Id</param>
+            <returns>Respone of the medicine details</returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.MedicinesController.Add(ABCPharmacyApp.Api.Models.Medicine)">
+            <summary>
+            Add the medicine in the stock
+            </summary>
+            <param name="medicine">Medicine Details</param>
+            <returns>Respone of the stored medicine details</returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.MedicinesController.Update(System.Int32,ABCPharmacyApp.Api.Models.Medicine)">
+            <summary>
+            Update the medicine details by medicine id
+            </summary>
+            <param name="id">Medicine Id</param>
+            <param name="updated">Medicine Details</param>
+            <returns>Respone of the =updated medicine details</returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.MedicinesController.Delete(System.Int32)">
+            <summary>
+            Delete the Medicine Details record by medicine id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ABCPharmacyApp.Api.Controllers.SalesController">
+            <summary>
+            SalesController define the status of sales stock in the inventory.
+            </summary>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.SalesController.GetAllSales">
+            <summary>
+            List of all Sold medicines
+            </summary>
+            <returns>List Response </returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Controllers.SalesController.RecordSale(ABCPharmacyApp.Api.Models.SaleRecord)">
+            <summary>
+            Records a new sale for a medicine.
+            </summary>
+            <param name="sale">Sale details including medicineId and quantitySold.</param>
+            <returns>Returns the recorded sale entry.</returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Services.MedicineService.GetAllMedicines">
+            <summary>
+            Get all medicines
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Services.MedicineService.GetMedicineById(System.Int32)">
+            <summary>
+            Get medicine by ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Services.MedicineService.AddMedicine(ABCPharmacyApp.Api.Models.Medicine)">
+            <summary>
+             Add new medicine
+            </summary>
+            <param name="medicine">object of medicine</param>
+            <returns></returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Services.MedicineService.UpdateMedicine(System.Int32,ABCPharmacyApp.Api.Models.Medicine)">
+            <summary>
+            Update existing medicine
+            </summary>
+            <param name="id">medicine id</param>
+            <param name="updated">medicine object</param>
+            <returns></returns>
+        </member>
+        <member name="M:ABCPharmacyApp.Api.Services.MedicineService.DeleteMedicine(System.Int32)">
+            <summary>
+             Delete medicine by id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

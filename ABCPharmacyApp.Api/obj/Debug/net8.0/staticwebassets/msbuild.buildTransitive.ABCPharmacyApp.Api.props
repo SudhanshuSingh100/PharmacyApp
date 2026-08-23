@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ABCPharmacyApp.Api.props" />
+</Project>

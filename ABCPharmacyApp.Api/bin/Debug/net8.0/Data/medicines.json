@@ -1,0 +1,353 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Paraceamol",
+    "Notes": "fever medicine",
+    "ExpiryDate": "2026-08-18T11:19:59.631Z",
+    "Quantity": 100,
+    "Price": 200,
+    "Brand": "Cipla"
+  },
+  {
+    "Id": 2,
+    "FullName": "Dolo 600",
+    "Notes": "Cough fever medicine",
+    "ExpiryDate": "2026-08-18T12:19:59.631Z",
+    "Quantity": 1900,
+    "Price": 3500,
+    "Brand": "PharmMedico"
+  },
+  {
+    "Id": 3,
+    "FullName": "BrainRexlo",
+    "Notes": "Relex the brain tiredness medicine",
+    "ExpiryDate": "2026-08-18T12:34:59.631Z",
+    "Quantity": 5006,
+    "Price": 3500,
+    "Brand": "PharmaceuticalCompany"
+  },
+  {
+    "Id": 4,
+    "FullName": "FaxSatla",
+    "Notes": "test",
+    "ExpiryDate": "2026-08-19T00:00:00",
+    "Quantity": 12,
+    "Price": 0,
+    "Brand": "Cipla"
+  },
+  {
+    "Id": 5,
+    "FullName": "CalicumVita",
+    "Notes": "Updated Bone strong medicine",
+    "ExpiryDate": "2026-08-18T12:34:59.631Z",
+    "Quantity": 550,
+    "Price": 3500,
+    "Brand": "PharmaceuticalCompany"
+  },
+  {
+    "Id": 6,
+    "FullName": "CovidVax",
+    "Notes": "teste",
+    "ExpiryDate": "2026-09-04T00:00:00",
+    "Quantity": 23334,
+    "Price": 1230000,
+    "Brand": "Cipla10X"
+  },
+  {
+    "Id": 7,
+    "FullName": "stest testng",
+    "Notes": "test",
+    "ExpiryDate": "2026-08-19T00:00:00",
+    "Quantity": 23,
+    "Price": 0,
+    "Brand": "btest"
+  },
+  {
+    "Id": 8,
+    "FullName": "test",
+    "Notes": "test",
+    "ExpiryDate": "2026-08-22T00:00:00",
+    "Quantity": 99,
+    "Price": 3450,
+    "Brand": "tepta"
+  },
+  {
+    "Id": 9,
+    "FullName": "test",
+    "Notes": "test",
+    "ExpiryDate": "2026-08-22T00:00:00",
+    "Quantity": 99,
+    "Price": 3450,
+    "Brand": "tepta"
+  },
+  {
+    "Id": 10,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 11,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 12,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 13,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 14,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 15,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 16,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 17,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 18,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 19,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 20,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 21,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 22,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 23,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 24,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 25,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 26,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 27,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 28,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 29,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 30,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 31,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 32,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 33,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 34,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 35,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 36,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 37,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 38,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  },
+  {
+    "Id": 39,
+    "FullName": "string",
+    "Notes": "string",
+    "ExpiryDate": "2026-08-23T00:00:00",
+    "Quantity": 90,
+    "Price": 0,
+    "Brand": "string"
+  }
+]
