@@ -90,15 +90,6 @@
     "Brand": "string"
   },
   {
-    "Id": 11,
-    "FullName": "string",
-    "Notes": "string",
-    "ExpiryDate": "2026-08-23T00:00:00",
-    "Quantity": 90,
-    "Price": 0,
-    "Brand": "string"
-  },
-  {
     "Id": 12,
     "FullName": "string",
     "Notes": "string",

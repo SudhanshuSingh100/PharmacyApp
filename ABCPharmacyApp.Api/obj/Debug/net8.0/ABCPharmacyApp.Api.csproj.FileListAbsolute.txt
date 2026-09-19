@@ -47,3 +47,16 @@ C:\Users\mr.sudhann\ABCPharmacyApp\abcpharmacyapp.api\bin\Debug\net8.0\System.Di
 C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\OpenTelemetry.Exporter.OpenTelemetryProtocol.dll
 C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\OpenTelemetry.Instrumentation.Runtime.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\obj\Debug\net8.0\ABCPharmacyApp.Api.sourcelink.json
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Enrichers.Environment.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Enrichers.Thread.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\mr.sudhann\ABCPharmacyApp\ABCPharmacyApp.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll

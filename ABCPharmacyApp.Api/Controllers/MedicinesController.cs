@@ -8,8 +8,14 @@ namespace ABCPharmacyApp.Api.Controllers
     [Route("api/[controller]")]
     public class MedicinesController : ControllerBase
     {
+        private readonly ILogger<MedicinesController> _logger;
+        
         private readonly MedicineService _service;
-        public MedicinesController(MedicineService service) { _service = service; }
+        public MedicinesController(MedicineService service, ILogger<MedicinesController> logger) 
+        { 
+            _logger = logger;
+            _service = service;             
+        }
         
         /// <summary>
         /// Get the list of all medicine
@@ -17,9 +23,18 @@ namespace ABCPharmacyApp.Api.Controllers
         /// <returns></returns>
         [HttpGet]
         public IActionResult GetAll()
-        {
-            var medicines = _service.GetAllMedicines();
-            return Ok(medicines);
+        {   
+             _logger.LogInformation("HTTP GET /medicine/GetAll received");
+           
+            try
+            {
+                var medicines = _service.GetAllMedicines();
+                return Ok(medicines);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
         
         /// <summary>
@@ -30,11 +45,20 @@ namespace ABCPharmacyApp.Api.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-             if (id == 0)
-                 throw new KeyNotFoundException("Medicine not found");
-            var medicine = _service.GetMedicineById(id);
-            if (medicine == null) return NotFound();
-            return Ok(medicine);
+           // _logger.LogInformation("HTTP GET /medicine/{Id} received", id);
+            try
+            {
+                if (id == 0)
+                    throw new KeyNotFoundException("Medicine not found");
+                var medicine = _service.GetMedicineById(id);
+                if (medicine == null) return NotFound();
+               
+                return Ok(medicine);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
         
         /// <summary>
@@ -45,6 +69,8 @@ namespace ABCPharmacyApp.Api.Controllers
         [HttpPost]
         public IActionResult Add(Medicine medicine)
         {
+            _logger.LogInformation("HTTP POST /medicine/ received");
+
             var added = _service.AddMedicine(medicine);
             return Ok(added);
         }
@@ -71,6 +97,8 @@ namespace ABCPharmacyApp.Api.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
+            _logger.LogInformation("HTTP DELETE /medicine/{Id} received", id);
+
              if (id == 0)
                  throw new KeyNotFoundException("Medicine not found");
    

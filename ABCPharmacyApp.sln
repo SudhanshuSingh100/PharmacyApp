@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCPharmacyApp.Api", "ABCPharmacyApp.Api\ABCPharmacyApp.Api.csproj", "{0E1E1685-A9FA-4006-9A37-B4AF8081FD20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypoTypo", "..\Project\TypoTypo\TypoTypo.csproj", "{01700A7D-8941-4BD3-B4C1-02932AAAF965}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0E1E1685-A9FA-4006-9A37-B4AF8081FD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E1E1685-A9FA-4006-9A37-B4AF8081FD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E1E1685-A9FA-4006-9A37-B4AF8081FD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01700A7D-8941-4BD3-B4C1-02932AAAF965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01700A7D-8941-4BD3-B4C1-02932AAAF965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01700A7D-8941-4BD3-B4C1-02932AAAF965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01700A7D-8941-4BD3-B4C1-02932AAAF965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

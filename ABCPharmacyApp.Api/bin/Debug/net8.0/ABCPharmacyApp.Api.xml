@@ -57,6 +57,9 @@
             <param name="sale">Sale details including medicineId and quantitySold.</param>
             <returns>Returns the recorded sale entry.</returns>
         </member>
+        <member name="P:ABCPharmacyApp.Api.Exceptions.AppException.ErrorCode">
+            <summary>Stable, machine-readable code clients can switch on.</summary>
+        </member>
         <member name="M:ABCPharmacyApp.Api.Services.MedicineService.GetAllMedicines">
             <summary>
             Get all medicines

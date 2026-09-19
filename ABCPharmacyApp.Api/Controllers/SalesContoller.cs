@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ABCPharmacyApp.Api.Models;
 using ABCPharmacyApp.Api.Services;
+using ABCPharmacyApp.Api.Services.IServices;
 
 namespace ABCPharmacyApp.Api.Controllers
 {
@@ -11,11 +12,13 @@ namespace ABCPharmacyApp.Api.Controllers
     [Route("api/[controller]")]
     public class SalesController : ControllerBase
     {
+        private readonly ILogger<SalesController> _logger;
         private readonly MedicineService _medicineService;
         private readonly JsonStorageService _storage;
 
-        public SalesController(MedicineService medicineService, JsonStorageService storage)
-        {
+        public SalesController(MedicineService medicineService, JsonStorageService storage, ILogger<SalesController> logger)
+        {   
+            _logger = logger;
             _medicineService = medicineService;
             _storage = storage;
         }
@@ -27,6 +30,8 @@ namespace ABCPharmacyApp.Api.Controllers
         [HttpGet]
         public IActionResult GetAllSales()
         {
+             _logger.LogInformation("HTTP Get /GetAllSales received");
+
             var sales = _storage.LoadSales();
             return Ok(sales);
         }
@@ -53,6 +58,18 @@ namespace ABCPharmacyApp.Api.Controllers
 
             return Ok(sale);
         }
+        
+        [HttpGet("downstream")]
+        public async Task<IActionResult> CallDownstream(
+            [FromServices] IHttpClientFactory factory,
+            [FromServices] ICorrelationIdAccessor accessor)
+        {
+            _logger.LogInformation("Calling downstream with correlation {CorrelationId}", accessor.CorrelationId);
 
+            var client = factory.CreateClient("downstream");
+            var response = await client.GetAsync("api/ping");   // X-Correlation-ID is added automatically
+
+            return StatusCode((int)response.StatusCode);
+        }
     }
 }
